@@ -32,9 +32,9 @@ if (isset($_SESSION["at_u"])) {
 
         // Requirements for hash code
         $item = $product_data["title"];
-        $merchant_id = 1221196;
+        $merchant_id = 11223344;
         $currency = "LKR";
-        $merchant_secret = "NzcwNzM0NDkyNDA4NTQwMjkwNzE4MDM0NDA0MTE0MTM2OTA3OTk5";
+        $merchant_secret = "merchant_secret_code";
         $amount = $product_data["price"] + $delivery;
         $fname = $address_data["fname"];
         $lname = $address_data["lname"];
