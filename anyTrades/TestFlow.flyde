@@ -1,0 +1,49 @@
+imports:
+  "@flyde/stdlib":
+    - GetAttribute
+    - Http
+node:
+  instances:
+    - pos:
+        x: 297.5
+        y: 202.5
+      id: csmmu05kptu096zi496pgz2w
+      inputConfig: {}
+      nodeId: GetAttribute__csmmu05kptu096zi496pgz2w
+      macroId: GetAttribute
+      macroData:
+        key:
+          mode: static
+          value: ""
+    - pos:
+        x: 239.17000000000002
+        y: -37.5
+      id: yqk5h3vvsorjzewsplcb9hij
+      inputConfig: {}
+      nodeId: Http__yqk5h3vvsorjzewsplcb9hij
+      macroId: Http
+      macroData:
+        method:
+          mode: static
+          value: GET
+        url:
+          mode: static
+          value: https://www.example.com
+        headers:
+          mode: static
+          value: {}
+        params:
+          mode: static
+          value: {}
+        data:
+          mode: static
+          value: {}
+  connections: []
+  id: Example
+  inputs: {}
+  outputs: {}
+  inputsPosition: {}
+  outputsPosition:
+    result:
+      x: -23.264428942324532
+      y: 237.25953921502617
