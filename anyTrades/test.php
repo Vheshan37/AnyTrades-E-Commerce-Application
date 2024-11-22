@@ -36,7 +36,7 @@
                     // Put the payment variables here
                     var payment = {
                         sandbox: true,
-                        merchant_id: "1221196", // Replace your Merchant ID
+                        merchant_id: "112233445566778899", // Replace your Merchant ID
                         return_url: "http://localhost/anyTrades/home.php", // Important
                         cancel_url: "http://localhost/anyTrades/home.php", // Important
                         notify_url: "http://sample.com/notify",
