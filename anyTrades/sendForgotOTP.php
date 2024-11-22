@@ -42,12 +42,12 @@ if (empty($email)) {
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'vihangaheshan37@gmail.com';
-            $mail->Password = 'vxrgrywfcqlrbshg';
+            $mail->Username = 'youremail';
+            $mail->Password = 'yourpassword';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
-            $mail->setFrom('vihangaheshan37@gmail.com', 'Forgot Password OTP Code');
-            $mail->addReplyTo('vihangaheshan37@gmail.com', 'Forgot Password OTP Code');
+            $mail->setFrom('email', 'Forgot Password OTP Code');
+            $mail->addReplyTo('email', 'Forgot Password OTP Code');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'AnyTrades Forgot Password OTP Code';
